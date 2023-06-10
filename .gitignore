@@ -1,0 +1,12 @@
+/database
+/logs
+.idea/php.xml
+.idea/modules.xml
+.idea/IdeaSoft Assesment.iml
+src/.idea/workspace.xml
+src/.idea/src.iml
+src/.idea/php.xml
+src/.idea/modules.xml
+src/.idea/.gitignore
+.idea/.gitignore
+src/ideasoft/composer.lock
