@@ -10,3 +10,4 @@ src/.idea/modules.xml
 src/.idea/.gitignore
 .idea/.gitignore
 src/ideasoft/composer.lock
+.idea/vcs.xml

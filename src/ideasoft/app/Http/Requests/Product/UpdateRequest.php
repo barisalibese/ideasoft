@@ -15,7 +15,14 @@ class UpdateRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'name' => 'string|required|min:3',
+            'price' => 'required|regex:/^\d+(\.\d{1,2})?$/',
+            'stock' => 'integer|required',
+            'categories' => [
+                'required',
+                /*'confirmed',*/
+                'array',
+            ],
         ];
     }
 }
